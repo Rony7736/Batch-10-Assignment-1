@@ -70,7 +70,6 @@ body{
 }
 .banner-button a{
     text-decoration: none;
-    /* color: #ffffff; */
     font-size: 18px;
     font-weight: 600;
     padding: 20px 35px;
@@ -81,11 +80,154 @@ body{
 /* Why Web Development Section Started */
 
 .why-dev-section{
-    width: 1440px;
-    height: 5245px;
-    border: 1px solid red;
-    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.why-dev-container{
+    width: 1140px;
+    height: 1395px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0px auto;
+    padding-top: 2px;
+}
+.why-dev-row{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 2px;
+}
+.why-dev-heading h3{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.why-dev-heading p{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.why-dev-row{
+    width: 946px;
+    height: 336px;
+    margin: 50px auto;
+}
+.why-dev-row-sub{
+    width: 850px;
+    height: 240px;
+    margin: 50px auto;
+    display: flex;
+}
+.why-dev-left-column{
+    width: 60%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.why-dev-left-column h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+.why-dev-left-column p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+.btn-primary{
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+.why-dev-right-column{
+    width: 40%;
+    height: 240px;
+}
+.why-dev-right-column img{
+    margin-left: 60px;
+}
+
+.why-dev-left-column-2{
+    width: 40%;
+    height: 240px;
+}
+.why-dev-left-column-2 img{
+    margin-right: 60px;
+}
+
+.why-dev-right-column-2{
+    width: 60%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.why-dev-right-column-2 h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+.why-dev-right-column-2 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+.why-dev-left-column-3{
+    width: 60%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.why-dev-left-column-3 h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+.why-dev-left-column-3 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.why-dev-right-column-3{
+    width: 40%;
+    height: 240px;
+}
+.why-dev-right-column-3 img{
+    margin-left: 60px;
+}
 
 /* Why Web Development Section End */
+
+
