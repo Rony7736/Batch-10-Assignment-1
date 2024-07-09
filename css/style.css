@@ -90,6 +90,7 @@ body{
     background: rgba(13, 19, 33, 0.02);
     margin: 0px auto;
     padding-top: 2px;
+    border-radius: 15px;
 }
 .why-dev-row{
     background: #ffffff;
