@@ -97,6 +97,11 @@ body{
     border-radius: 15px;
     padding: 2px;
 }
+.why-dev-heading{
+    width: 852px;
+    height: 115px;
+    margin: 0px auto;
+}
 .why-dev-heading h3{
     color: rgb(13, 19, 33);
     text-align: center;
@@ -105,20 +110,16 @@ body{
     line-height: 37px;
     margin-top: 50px;
     margin-bottom: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 .why-dev-heading p{
     color: rgb(13, 19, 33);
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
     margin-top: 10px;
     margin-bottom: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 .why-dev-row{
     width: 946px;
@@ -148,7 +149,7 @@ body{
 }
 .why-dev-left-column p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-right: 80px;
     margin-bottom: 50px;
@@ -193,7 +194,7 @@ body{
 }
 .why-dev-right-column-2 p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-right: 80px;
     margin-bottom: 50px;
@@ -215,7 +216,7 @@ body{
 }
 .why-dev-left-column-3 p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-right: 80px;
     margin-bottom: 50px;
@@ -240,9 +241,11 @@ body{
     margin: 50px auto;
 }
 .my-inspiration-text{
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 852px;
+    height: 115px;
+    margin: 50px auto;
     text-align: center;
+
 }
 .my-inspiration-text h3{
     color: rgb(13, 19, 33);
@@ -254,7 +257,7 @@ body{
 }
 .my-inspiration-text p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 40px;
@@ -272,4 +275,95 @@ body{
 }
 
 /* My Inspiration Section End */
+
+
+/* My Current Target Section Started */
+
+.my-current-target-container{
+    width: 1140px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-current-target-text{
+    width: 852px;
+    height: 115px;
+    margin: 0px auto;
+    text-align: center;
+}
+.my-current-target-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.my-current-target-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.current-skills-container{
+    width: 1140px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.current-skill-content{
+    width: 364px;
+    height: 300px;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+.content-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.content-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.content-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.current-skill{
+    width: 284px;
+    height: 220px;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.current-skill h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.current-skill p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.learn-more a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+
+
+/* My Current Target Section End */
 
