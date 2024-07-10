@@ -232,3 +232,44 @@ body{
 /* Why Web Development Section End */
 
 
+/* My Inspiration Section Started */
+
+.my-inspiration-container{
+    width: 1140px;
+    height: 777px;
+    margin: 50px auto;
+}
+.my-inspiration-text{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.my-inspiration-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.my-inspiration-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+.my-inspiration-video{
+    width: 1076px;
+    height: 550px;
+    margin: 0px auto;
+}
+.my-inspiration-video iframe{
+    width: 100%;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* My Inspiration Section End */
+
